@@ -1,0 +1,40 @@
+html,body,p,div{
+    margin:0;
+    padding:0;
+}
+#makeButton{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #e9e9e9;
+    font-size: 13px;
+}
+.bonus{color: #fff;}
+.bonus div{background: gray;}
+#result{}
+#result div{color: #fff;}
+.topTitle{
+    color: #3c87f9;
+    font-size: 20px;
+    text-align: center;
+    padding:15px 0 15px;
+}
+.lines{
+    overflow: hidden;
+    padding:0 20px;
+}
+.title1{
+    float: left;
+}
+.title2{
+    float:right;
+    border:1px solid #eee;
+    padding: 5px 10px;
+}
+#layerPopup{
+    position: fixed;
+    top:20px;
+}
